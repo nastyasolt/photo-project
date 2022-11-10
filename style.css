@@ -1,0 +1,284 @@
+
+
+.container {
+    background-color: #000000;
+    max-width: 3000px;
+  
+   
+    
+}
+
+.logo {
+    max-height: 40px;
+  }
+
+nav {
+    padding: 20px 0;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+  
+   nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+    
+   }
+
+   nav li.active a,
+   nav a:hover{
+    color: #F65282;
+   }
+  
+
+  .main-page {
+    background-image:url("img/backdrop.jpg");
+    background-attachment: fixed;
+    
+    background-size: cover;
+    padding: 550px;
+    text-align: center;
+    
+  }
+
+  .main-page h1 {
+    color: rgba(255, 255, 255, 0.432);
+    text-align: center;
+    padding: 80px 20px;
+   
+  }
+
+  .main-page h3 {
+    color: rgba(255, 255, 255, 0.432);
+    text-align: center;
+  }
+
+  .btn-branding {
+    background: rgba(255, 255, 255, 0.137);
+    border-radius: 50px;
+    border: none;
+    color: rgba(255, 255, 255, 0.685);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 25px 50px;
+    margin: 20px;
+    margin-top: 40px;
+      
+  }
+
+  .btn-branding:hover {
+    background-color: #f652835d;
+    color: white;
+    transition: all 200ms ease-in-out;
+    border: none;
+}
+
+.four-columns {
+    text-align: right;
+}
+
+ .four-columns a {
+    color: rgba(255, 255, 255, 0.432);
+    text-decoration: none;
+    font-size: 35px;
+    
+}
+
+  .four-columns a:hover {
+    color: white;
+}
+
+
+
+
+
+  footer {
+    color: white;
+    background-color: rgba(207, 207, 207, 0.075);
+    margin-top: 420px;
+  }
+
+  .social-links-footer a {
+    margin: 40px 20px;
+    padding: 10px;
+    color: white;
+    font-size: 26px;
+    transition: all 100ms ease-in-out;
+  }
+  .social-links-footer a:hover {
+    color: #F65282;
+  }
+
+
+  
+
+  .about-me {
+    background-color: black;
+    padding: 40px;
+}
+
+  .about-me h1, p {
+    color: rgba(255, 255, 255, 0.432);
+  }
+
+  .about-me h4 {
+    color: #F65282;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .about-me h1 {
+   font-size: 64px;
+   margin-top: 40px;
+  }
+
+  .about-me p {
+    margin-top: 40px;
+  }
+
+  .social-links a {
+    margin: 40px 20px 40px 10px;
+    color: white;
+    font-size: 30px;
+    transition: all 100ms ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color: #F65282;
+    
+  }
+
+  .btn-about {
+    background: rgba(255, 255, 255, 0.212);
+    border-radius: 50px;
+    border: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 25px 50px;
+    margin-top: 80px;
+  }
+
+  .btn-about:hover {
+    background-color: #F65282;
+    color: white;
+  }
+
+
+  .gallery {
+    text-align: center;
+  }
+
+  
+
+
+
+
+
+
+
+ @media (max-width: 600px) {
+
+    nav {
+        padding: 0;
+      }
+
+    nav a {
+        font-size: 9px;
+ }
+
+    h1 {
+        font-size: 15px;
+  }
+
+
+  .main-page {
+    
+    background-attachment: local;
+}
+
+  .four-columns, .about-row {
+    margin-top: 40px;
+  }
+
+  .four-columns a {
+    font-size: 10px;
+  }
+
+
+  .about-me {
+    padding: 0;
+    margin: 0;
+}
+
+  .about-me h1 {
+    font-size: 14px;
+    margin: 10px;
+  }
+
+   .about-me p {
+    margin: 10px;
+    font-size: 6px;
+  }
+
+  .about-me h4 {
+    margin: 10px;
+    font-size: 8px;
+
+}
+
+
+.btn-about,
+.btn-branding {
+    
+    font-size: 8px;
+    line-height: 17px;
+    padding: 3px 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ .social-links a {
+    margin: 0 20px 0 20px;
+    font-size: 10px;
+}
+
+
+.social-links-footer a {
+    margin: 0;
+    max-width: 75%;
+    font-size: 10px;
+}
+
+
+
+#camera-pic {
+    max-width: 75%;
+}
+
+ }
+
+
+
+
+
+
+@media (max-width: 1800px) {
+    .main-page {
+        padding: 0;
+    }
+
+}
