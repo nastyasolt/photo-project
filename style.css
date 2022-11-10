@@ -120,11 +120,12 @@ nav {
   footer {
     color: white;
     background-color: rgba(207, 207, 207, 0.075);
-    margin-top: 420px;
+    margin-top: 425px;
   }
 
   .social-links-footer a {
     margin: 40px 20px;
+    
     padding: 10px;
     color: white;
     font-size: 26px;
