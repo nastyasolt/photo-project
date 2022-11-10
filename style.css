@@ -210,14 +210,14 @@ nav {
   
   .content h2 {
     font-size: 18px;
-    font-family: var(--default-font-family);
+    
   }
   
   .content h3 {
     font-size: 20px;
     line-height: 1.5;
   
-    font-family: var(--default-font-family);
+    
   }
   
   .content p {
@@ -227,6 +227,8 @@ nav {
   .content a {
     font-size: 24px;
     color: #F65282;
+    text-decoration: none;
+    
   }
 
   .content a:hover {
