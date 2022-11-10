@@ -182,10 +182,45 @@ nav {
     text-align: center;
   }
 
+  .content-container {
+    padding: 60px 20px;
+    color: #ffffff75;
+  }
   
+  .content h1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+  
+  .content h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    line-height: 1.5;
+  
+    font-family: var(--default-font-family);
+  }
+  
+  .content p {
+    font-size: 18px;
+  }
+  
+  .content {
+    margin: 30px;
+  }
 
+  .content form {
+    background-color: #ffffff11;
+  }
 
+  .form-label {
+    font-size: 24px;
+  }
 
+  
 
 
 
@@ -264,10 +299,25 @@ nav {
 }
 
 
-
 #camera-pic {
     max-width: 75%;
 }
+
+.form-label {
+  font-size: 13px;
+}
+
+.content h1 {
+  font-size: 48px;
+  margin-bottom: 0!important;
+}
+
+.content h3,
+.content p  {
+  font-size: 12px;
+}
+
+
 
  }
 
