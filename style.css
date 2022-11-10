@@ -193,7 +193,7 @@ nav {
   }
 
   .content-container {
-    padding: 60px 20px;
+    padding: 60px 400px;
     color: #ffffff75;
   }
   
@@ -343,7 +343,8 @@ nav {
 }
 
 .content h3,
-.content p  {
+.content p,
+.content a  {
   font-size: 12px;
 }
 
@@ -357,3 +358,8 @@ nav {
 
 
 
+@media (max-width: 2000px) {
+  .content-container {
+    padding: 60px 0;
+  }
+}
