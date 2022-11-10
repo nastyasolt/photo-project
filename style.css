@@ -418,3 +418,24 @@ nav {
     padding: 60px 0;
   }
 }
+
+
+
+
+
+
+
+@media 
+(width : 768px ),
+(width : 820px ),
+(width : 912px ),
+(width : 1024px) {
+  .main-page {
+    
+    background-attachment:local;
+    background-size: cover;
+    padding: 320px;
+    text-align: center;
+  }
+}
+
