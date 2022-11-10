@@ -98,7 +98,17 @@ nav {
 
   .four-columns a:hover {
     color: white;
+    
 }
+
+.four-columns img{
+  opacity: 1;
+}
+
+.four-columns img:hover  {
+  opacity: 0.3;
+}
+
 
 
 
@@ -198,7 +208,7 @@ nav {
   }
   
   .content h3 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
   
     font-family: var(--default-font-family);
@@ -206,6 +216,16 @@ nav {
   
   .content p {
     font-size: 18px;
+  }
+
+  .content a {
+    font-size: 24px;
+    color: #F65282;
+  }
+
+  .content a:hover {
+    font-size: 28px;
+    color: #ffffff;
   }
   
   .content {
@@ -219,7 +239,10 @@ nav {
   .form-label {
     font-size: 24px;
   }
-
+ 
+ .form-control {
+  font-size: 24px;
+ }
   
 
 
@@ -239,15 +262,18 @@ nav {
         font-size: 15px;
   }
 
-
+  
   .main-page {
+    background-image:url("img/backdrop2.jpg");
+    background-attachment: fixed;
+    padding: 260px 0;
     
-    background-attachment: local;
-}
-
-  .four-columns, .about-row {
-    margin-top: 40px;
   }
+
+  .four-columns {
+    margin-top: -80px;
+  }
+
 
   .four-columns a {
     font-size: 10px;
@@ -273,6 +299,10 @@ nav {
     margin: 10px;
     font-size: 8px;
 
+}
+
+.about-row {
+  margin-top: 40px;
 }
 
 
@@ -317,6 +347,9 @@ nav {
   font-size: 12px;
 }
 
+.content h1 {
+  font-size: 32px;
+}
 
 
  }
@@ -324,11 +357,3 @@ nav {
 
 
 
-
-
-@media (max-width: 1800px) {
-    .main-page {
-        padding: 0;
-    }
-
-}
