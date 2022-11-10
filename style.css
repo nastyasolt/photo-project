@@ -56,12 +56,14 @@ nav {
     color: rgba(255, 255, 255, 0.432);
     text-align: center;
     padding: 80px 20px;
+    font-family: 'Xanh Mono', monospace;
    
   }
 
   .main-page h3 {
     color: rgba(255, 255, 255, 0.432);
     text-align: center;
+    font-family: 'Xanh Mono', monospace;
   }
 
   .btn-branding {
@@ -93,6 +95,7 @@ nav {
     color: rgba(255, 255, 255, 0.432);
     text-decoration: none;
     font-size: 35px;
+    font-family: 'Xanh Mono', monospace;
     
 }
 
@@ -140,18 +143,21 @@ nav {
 }
 
   .about-me h1, p {
-    color: rgba(255, 255, 255, 0.432);
+    color: rgba(255, 255, 255, 0.692);
+    
   }
 
   .about-me h4 {
     color: #F65282;
     margin-top: 30px;
     margin-bottom: 60px;
+    
   }
 
   .about-me h1 {
    font-size: 64px;
    margin-top: 40px;
+   font-family: 'Xanh Mono', monospace;
   }
 
   .about-me p {
@@ -171,7 +177,7 @@ nav {
   }
 
   .btn-about {
-    background: rgba(255, 255, 255, 0.212);
+    background: rgba(255, 255, 255, 0.692);
     border-radius: 50px;
     border: none;
     color: rgb(0, 0, 0);
@@ -194,7 +200,7 @@ nav {
 
   .content-container {
     padding: 60px 400px;
-    color: #ffffff75;
+    color: rgba(255, 255, 255, 0.692);
   }
   
   .content h1 {
