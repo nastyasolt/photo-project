@@ -196,7 +196,42 @@ nav {
 
   .gallery {
     text-align: center;
+    margin-top: 50px;
   }
+
+  .four-columns-gallery {
+    text-align: right;
+}
+
+ .four-columns-gallery a {
+    color: rgba(255, 255, 255, 0.432);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'Xanh Mono', monospace;
+    
+}
+
+  .four-columns-gallery a:hover {
+    color: white;
+    
+}
+
+.four-columns-gallery img{
+  opacity: 1;
+}
+
+.four-columns-gallery img:hover  {
+  opacity: 0.3;
+}
+
+.gallery-footer {
+  margin-top: 850px;
+}
+
+
+
+
+
 
   .content-container {
     padding: 60px 400px;
@@ -252,6 +287,7 @@ nav {
   font-size: 24px;
  }
   
+ 
 
 
 
@@ -278,12 +314,17 @@ nav {
     
   }
 
+  .four-columns-gallery {
+    margin: 0;
+  }
+
   .four-columns {
     margin-top: -80px;
   }
 
 
-  .four-columns a {
+  .four-columns a,
+  .four-columns-gallery a {
     font-size: 10px;
   }
 
@@ -358,6 +399,10 @@ nav {
 
 .content h1 {
   font-size: 32px;
+}
+
+.gallery-footer {
+  margin-top: 580px;
 }
 
 
