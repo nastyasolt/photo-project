@@ -107,7 +107,7 @@ nav {
  .four-columns img{
   transition: all 300ms ease-in-out;
   filter: grayscale(100%);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   
  }
 
@@ -130,10 +130,11 @@ nav {
 
   .social-links-footer {
     margin-top: 605px;
+    
   }
 
   .social-links-footer a {
-    margin: 40px 20px;
+    margin: 10px 20px;
     
     padding: 10px;
     color: white;
@@ -222,6 +223,7 @@ nav {
     font-family: 'Xanh Mono', monospace;
     
     
+    
 }
 
   .four-columns-gallery a:hover {
@@ -232,7 +234,7 @@ nav {
 
 .four-columns-gallery img{
   opacity: 0.8;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .four-columns-gallery img:hover  {
