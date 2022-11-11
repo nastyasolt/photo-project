@@ -346,7 +346,7 @@ nav {
   .main-page {
     background-image:url("img/backdrop3.jpg");
     background-attachment: fixed;
-    padding: 260px 0;
+    padding: 275px 0;
     
   }
 
@@ -362,6 +362,11 @@ nav {
   .four-columns a,
   .four-columns-gallery a {
     font-size: 10px;
+   
+  }
+
+  .four-columns img {
+    margin-bottom: 5px;
   }
 
 
