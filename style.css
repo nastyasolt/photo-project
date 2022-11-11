@@ -43,7 +43,11 @@ nav {
   
 
   .main-page {
-    background-image:url("img/backdrop4.jpg");
+    background-image: linear-gradient(
+      rgba(1, 94, 201, 0.288) ,
+      rgba(192, 188, 71, 0.555)
+      ),
+    url("img/backdrop4.jpg");
     background-attachment: fixed;
     
     background-size: cover;
