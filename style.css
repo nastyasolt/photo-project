@@ -264,11 +264,16 @@ nav {
   
 }
 
+.image-wedding {
+  display: grid;
+  grid-template-columns: 2.2fr 4fr 4fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 
+}
 
-
-.grid-item-5,
-.grid-item-6  {
+.grid-item-2
+ {
   grid-column: span 2;
 }
 
