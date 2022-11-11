@@ -108,7 +108,7 @@ nav {
     
 }
 
- .four-columns img{
+ .four-columns img {
   transition: all 300ms ease-in-out;
   filter: grayscale(100%);
   margin-bottom: 20px;
@@ -155,10 +155,14 @@ nav {
   .about-me {
     background-color: black;
     padding: 40px;
+    
+    
+    
 }
 
   .about-me h1, p {
-    color: rgba(255, 255, 255, 0.692);
+    color: rgba(255, 255, 255, 0.473);
+    
     
   }
 
@@ -192,7 +196,7 @@ nav {
   }
 
   .btn-about {
-    background: rgba(255, 255, 255, 0.692);
+    background: rgba(255, 255, 255, 0.473);
     border-radius: 50px;
     border: none;
     color: rgb(0, 0, 0);
@@ -209,10 +213,36 @@ nav {
   }
 
 
+  .about-row img{
+    transition: all 300ms ease-in-out;
+    filter: grayscale(100%);
+  }
+
+  .about-row img:hover {
+    
+    filter:none;
+  }
+
+
+
   .gallery {
     text-align: center;
     margin-top: 50px;
     font-family: 'Xanh Mono', monospace;
+  }
+
+  
+  .gallery a {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 42px;
+    color: rgba(255, 255, 255, 0.247);
+    
+  }
+
+  .gallery a:hover {
+    color: #F65282;
   }
 
   .four-columns-gallery {
@@ -272,10 +302,33 @@ nav {
 
 }
 
+.image-portrait {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image-portrait-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image-portrait-3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+
 .grid-item-2
  {
   grid-column: span 2;
 }
+
 
 
 
@@ -292,6 +345,10 @@ nav {
   .content-container {
     padding: 60px 400px;
     color: rgba(255, 255, 255, 0.692);
+   
+    
+    
+   
   }
   
   .content h1 {
@@ -393,11 +450,13 @@ nav {
   .about-me {
     padding: 0;
     margin: 0;
+    
 }
 
   .about-me h1 {
     font-size: 14px;
     margin: 10px;
+    
   }
 
    .about-me p {
@@ -414,6 +473,11 @@ nav {
 .about-row {
   margin-top: 40px;
 }
+
+
+
+
+
 
 
 .btn-about,
