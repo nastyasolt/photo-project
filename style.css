@@ -269,6 +269,7 @@ nav {
 .four-columns-gallery img{
   opacity: 0.8;
   margin-bottom: 20px;
+  transition: all 300ms ease-in-out;
 }
 
 .four-columns-gallery img:hover  {
