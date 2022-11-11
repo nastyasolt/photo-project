@@ -154,33 +154,35 @@ nav {
 
   .about-me {
     background-color: black;
-    padding: 40px;
-    
-    
+    padding: 40px;   
     
 }
 
-  .about-me h1, p {
-    color: rgba(255, 255, 255, 0.473);
-    
-    
-  }
+  
 
   .about-me h4 {
     color: #F65282;
     margin-top: 30px;
     margin-bottom: 60px;
+  
     
   }
 
   .about-me h1 {
-   font-size: 64px;
+   font-size: 48px;
    margin-top: 40px;
-   font-family: 'Xanh Mono', monospace;
+   font-family: 'Xanh Mono', monospace; 
+   font-weight: 100;
   }
 
   .about-me p {
     margin-top: 40px;
+  }
+
+  .about-me h1, p {
+    color: rgba(255, 255, 255, 0.473);
+   
+    
   }
 
   .social-links a {
@@ -212,9 +214,12 @@ nav {
     color: white;
   }
 
+  .about-row .col-4 {
+    padding: 0;
+  }
 
   .about-row img{
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
     filter: grayscale(100%);
   }
 
@@ -310,6 +315,9 @@ nav {
   grid-row-gap: 10px;
 }
 
+
+
+
 .image-portrait-2 {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -325,15 +333,9 @@ nav {
 }
 
 
-.grid-item-2
- {
+.grid-item-2 {
   grid-column: span 2;
 }
-
-
-
-
-
 
 
 
@@ -481,7 +483,15 @@ nav {
 
 
 
-.btn-about,
+.btn-about {
+  font-size: 8px;
+  line-height: 17px;
+  padding: 3px 8px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+
 .btn-branding {
     
     font-size: 8px;
@@ -525,6 +535,10 @@ nav {
 
 .content h1 {
   font-size: 32px;
+}
+
+.gallery a {
+  font-size: 22px;
 }
 
 .gallery-footer {
