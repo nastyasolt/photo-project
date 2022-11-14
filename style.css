@@ -1,7 +1,7 @@
 
 
 .container {
-    background-color: #b31a1a;
+    background-color: #000000;
     max-width: 3000px;
 }
 
@@ -151,11 +151,15 @@ nav {
     color: #F65282;
   }
 
+  .container-about {
+    background-color: black;
+    
+  }
 
-  
+ 
 
   .about-me {
-    background-color: black;
+    background-color: transparent;
     padding: 40px;   
     
 }
@@ -345,61 +349,49 @@ nav {
   margin-top: 850px;
 }
 
+.page-contact {
+  background-image: url("/img/backdrop4.jpg");
+  background-attachment: fixed; 
+  background-size: cover;
 
+}
 
   .content-container {
     padding: 60px 400px;
-    color: rgba(255, 255, 255, 0.692);
-      background-attachment: fixed;
-     
-   
+    color: rgba(255, 255, 255, 0.692);  
   }
-  
   .content h1 {
     font-size: 64px;
     line-height: 80px;
   }
-  
   .content h2 {
-    font-size: 18px;
-    
+    font-size: 18px;  
   }
-  
-  .content h3 {
+   .content h3 {
     font-size: 20px;
     line-height: 1.5;
-  
-    
   }
-  
   .content p {
     font-size: 18px;
   }
-
-  .content a {
+ .content a {
     font-size: 24px;
     color: #F65282;
     text-decoration: none;
-    
-  }
-
+    }
   .content a:hover {
     font-size: 28px;
     color: #ffffff;
   }
-  
   .content {
     margin: 30px;
   }
-
-  .content form {
+ .content form {
     background-color: #ffffff11;
   }
-
   .form-label {
     font-size: 24px;
   }
- 
  .form-control {
   font-size: 24px;
  }
