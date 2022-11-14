@@ -339,17 +339,15 @@ nav {
 
 
 
-
-
 .gallery-footer {
   margin-top: 850px;
 }
 
+
+
   .content-container {
     padding: 60px 400px;
     color: rgba(255, 255, 255, 0.692);
-   
-    
     
    
   }
@@ -403,6 +401,35 @@ nav {
   font-size: 24px;
  }
   
+  
+
+  .price-page nav a {
+    color: rgba(54, 54, 54, 0.733);
+  }
+
+  .price-page nav a:hover {
+    color: #F65282;
+  }
+
+
+  .price-page {
+    background-image:linear-gradient(
+      rgba(34, 36, 37, 0.288) ,
+      rgba(0, 0, 0, 0.555)
+      ),
+    url("img/price.jpg") ;
+   
+    background-attachment: fixed;
+   }
+
+ .price-page p {
+  color:  rgba(206, 206, 206, 0.911);
+ }
+
+ .price-page div {
+  margin-top: 70px;
+  padding: 50px;
+ }
  
 
 
@@ -410,6 +437,17 @@ nav {
 
  @media (max-width: 600px) {
 
+
+  .price-page {
+    background-image:linear-gradient(
+      rgba(34, 36, 37, 0.288) ,
+      rgba(0, 0, 0, 0.555)
+      ),
+    url("img/3.jpg") ;
+   
+    background-attachment: fixed;
+   }
+ 
     nav {
         padding: 0;
       }
@@ -472,13 +510,6 @@ nav {
     font-size: 8px;
 
 }
-
-
-
-
-
-
-
 
 .btn-about {
   font-size: 8px;
@@ -543,8 +574,11 @@ nav {
 }
 
 
- }
 
+.price-page div {
+  font-size: 12px;
+}
+ }
 
 
 
@@ -553,10 +587,6 @@ nav {
     padding: 60px 0;
   }
 }
-
-
-
-
 
 
 
