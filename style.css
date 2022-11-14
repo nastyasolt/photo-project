@@ -1,10 +1,7 @@
-
-
 .container {
     background-color: #000000;
     max-width: 3000px;
 }
-
 
 
 .logo {
@@ -52,10 +49,7 @@ nav {
    }
 
   .main-page {
-    
     padding: 350px;
-    
-    
   }
 
   .main-page h1 {
@@ -123,10 +117,6 @@ nav {
 }
 
 
-
-
-
-
   footer {
     color: white;
     background-color: rgba(207, 207, 207, 0.075);
@@ -151,27 +141,22 @@ nav {
     color: #F65282;
   }
 
+
   .container-about {
     background-color: black;
     
   }
 
- 
-
   .about-me {
     background-color: transparent;
     padding: 40px;   
-    
-}
-
-  
+  }
+ 
 
   .about-me h4 {
     color: #F65282;
     margin-top: 30px;
-    margin-bottom: 60px;
-  
-    
+    margin-bottom: 60px;  
   }
 
   .about-me h1 {
@@ -187,8 +172,7 @@ nav {
 
   .about-me h1, p {
     color: rgba(255, 255, 255, 0.473);
-   
-    
+     
   }
 
   .social-links a {
@@ -266,15 +250,11 @@ nav {
     text-decoration: none;
     font-size: 18px;
     font-family: 'Xanh Mono', monospace;
-    
-    
-    
+         
 }
 
-  .four-columns-gallery a:hover {
-    color: white;
-   
-    
+.four-columns-gallery a:hover {
+    color: white;   
 }
 
 .four-columns-gallery img{
@@ -322,8 +302,6 @@ nav {
 }
 
 
-
-
 .image-portrait-2 {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -353,7 +331,6 @@ nav {
   background-image: url("/img/backdrop4.jpg");
   background-attachment: fixed; 
   background-size: cover;
-
 }
 
   .content-container {
