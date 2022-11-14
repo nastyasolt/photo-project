@@ -560,6 +560,10 @@ nav {
   background-attachment: fixed; 
   background-size: cover;
 }
+
+footer {
+  margin-top: -550px;
+}
  }
 
 
