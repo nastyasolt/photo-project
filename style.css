@@ -1,12 +1,11 @@
 
 
 .container {
-    background-color: #000000;
+    background-color: #b31a1a;
     max-width: 3000px;
-  
-   
-    
 }
+
+
 
 .logo {
     max-height: 40px;
@@ -41,18 +40,21 @@ nav {
     color: #F65282;
    }
   
-
-  .main-page {
+   .container-index {
     background-image: linear-gradient(
       rgba(1, 94, 201, 0.288) ,
       rgba(192, 188, 71, 0.555)
       ),
     url("img/backdrop4.jpg");
-    background-attachment: fixed;
-    
+    background-attachment: fixed; 
     background-size: cover;
-    padding: 350px;
     text-align: center;
+   }
+
+  .main-page {
+    
+    padding: 350px;
+    
     
   }
 
@@ -348,7 +350,8 @@ nav {
   .content-container {
     padding: 60px 400px;
     color: rgba(255, 255, 255, 0.692);
-    
+      background-attachment: fixed;
+     
    
   }
   
@@ -460,10 +463,14 @@ nav {
         font-size: 15px;
   }
 
-  
-  .main-page {
+  .container-index {
     background-image:url("img/backdrop3.jpg");
     background-attachment: fixed;
+
+  }
+
+  .main-page {
+  
     padding: 275px 0;
     
   }
