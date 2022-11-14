@@ -440,10 +440,10 @@ nav {
 
   .price-page {
     background-image:linear-gradient(
-      rgba(34, 36, 37, 0.288) ,
+      rgba(34, 36, 37, 0.288),
       rgba(0, 0, 0, 0.555)
       ),
-    url("img/3.jpg") ;
+    url("img/3.jpg");
    
     background-attachment: fixed;
    }
