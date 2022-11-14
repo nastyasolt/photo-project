@@ -444,6 +444,10 @@ nav {
     
   }
 
+  .four-columns-gallery .col-3 {
+    width: 50%;
+  }
+
   .four-columns-gallery {
     margin: 0;
   }
